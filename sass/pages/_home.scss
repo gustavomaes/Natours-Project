@@ -14,9 +14,16 @@
     url(../img/nat-4.jpg);
     background-size: cover;
     transform: skewY(-6deg);
-    margin-top: -11.5rem;
+    margin-top: -10rem;
 
     & > * {
         transform: skewY(6deg);
     }
+}
+
+.section-tours {
+    padding: 20rem 0 15rem 0;
+    background-color: $color-gray-light-1;
+    margin-top: -10rem;
+    
 }
